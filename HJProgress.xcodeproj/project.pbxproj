@@ -15,6 +15,8 @@
 		362FE4D71FE11F7600723A3D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 362FE4D61FE11F7600723A3D /* main.m */; };
 		362FE4E11FE11F7600723A3D /* HJProgressTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 362FE4E01FE11F7600723A3D /* HJProgressTests.m */; };
 		362FE4EC1FE11F7600723A3D /* HJProgressUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 362FE4EB1FE11F7600723A3D /* HJProgressUITests.m */; };
+		362FE4FB1FE1212000723A3D /* HJProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 362FE4F91FE1211F00723A3D /* HJProgressView.m */; };
+		362FE4FE1FE1293800723A3D /* HJProgressView2.m in Sources */ = {isa = PBXBuildFile; fileRef = 362FE4FC1FE1293700723A3D /* HJProgressView2.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		362FE4E71FE11F7600723A3D /* HJProgressUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HJProgressUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		362FE4EB1FE11F7600723A3D /* HJProgressUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HJProgressUITests.m; sourceTree = "<group>"; };
 		362FE4ED1FE11F7600723A3D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		362FE4F91FE1211F00723A3D /* HJProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HJProgressView.m; sourceTree = "<group>"; };
+		362FE4FA1FE1211F00723A3D /* HJProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HJProgressView.h; sourceTree = "<group>"; };
+		362FE4FC1FE1293700723A3D /* HJProgressView2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HJProgressView2.m; sourceTree = "<group>"; };
+		362FE4FD1FE1293800723A3D /* HJProgressView2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HJProgressView2.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +111,10 @@
 				362FE4C81FE11F7600723A3D /* AppDelegate.m */,
 				362FE4CA1FE11F7600723A3D /* ViewController.h */,
 				362FE4CB1FE11F7600723A3D /* ViewController.m */,
+				362FE4FA1FE1211F00723A3D /* HJProgressView.h */,
+				362FE4F91FE1211F00723A3D /* HJProgressView.m */,
+				362FE4FD1FE1293800723A3D /* HJProgressView2.h */,
+				362FE4FC1FE1293700723A3D /* HJProgressView2.m */,
 				362FE4CD1FE11F7600723A3D /* Main.storyboard */,
 				362FE4D01FE11F7600723A3D /* Assets.xcassets */,
 				362FE4D21FE11F7600723A3D /* LaunchScreen.storyboard */,
@@ -266,6 +276,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				362FE4CC1FE11F7600723A3D /* ViewController.m in Sources */,
+				362FE4FE1FE1293800723A3D /* HJProgressView2.m in Sources */,
+				362FE4FB1FE1212000723A3D /* HJProgressView.m in Sources */,
 				362FE4D71FE11F7600723A3D /* main.m in Sources */,
 				362FE4C91FE11F7600723A3D /* AppDelegate.m in Sources */,
 			);
